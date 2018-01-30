@@ -1,0 +1,7 @@
+# docker-compose.yml
+test: 
+    build: . 
+    command: make
+    volumes: 
+        - ./test:/src 
+    working_dir: /src
