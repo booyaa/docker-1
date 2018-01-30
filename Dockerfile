@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y \
     nasm \ 
     xorriso \ 
     qemu \ 
-    build-essential
+    build-essential \
+    grub-pc-bin
