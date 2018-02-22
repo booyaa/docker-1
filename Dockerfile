@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y \
     xorriso \ 
     qemu \ 
     build-essential \
-    grub-pc-bin
+    grub-pc-bin && apt-get clean
